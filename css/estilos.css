@@ -1,0 +1,47 @@
+*{margin: 0; padding: 0;}
+
+header { background-color: rgb(112, 186, 235); height: 450px;}
+
+div {display: flex; justify-content: center; padding: 10px;}
+.gabimg {height: 300px;}
+img {border-radius: 10px;}
+h1 {text-align: center;}
+h2 {width: 100%; text-align: center;}
+p {margin: 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+.descripcion {font-size: 20px; font-weight: 500;}
+.titulo {color: rgb(112, 186, 235) ;}
+.contenedorgrand {flex-wrap: wrap;}
+.contenedor1 {width: 25%;border: 2px solid;flex-wrap: wrap; border-radius: 5px; justify-content: center; margin: 15px;}
+.contenedor2 {width: 40%;border: 2px solid; border-radius: 5px; justify-content: center; margin: 15px;}
+.contenedor3 {width: 40%;border: 2px solid; flex-wrap: wrap; border-radius: 5px; justify-content: center; margin: 15px;}
+
+footer {background-color: rgb(112, 186, 235)}
+.iconos {display: flex;  background-color: rgb(112, 186, 235);}
+a {color: black; border-radius: 500px;}
+i {font-size: 40px; margin: 0 40px; background-color: white; padding: 6px; border-radius: 100%;}
+.inst :hover {color: #833AB4;}
+.twt :hover {color: #00acee;}
+.fcb :hover {color: #3b5998;}
+.yt :hover {color: #c4302b;}
+
+@media screen and (min-width: 601px) and (max-width: 990px){
+
+    .contenedor1{width: 40%;}
+    
+}
+@media screen and (max-width: 600px){
+
+    
+    header {height: 500px;}
+    img {width: 300px}
+    .descripcion {text-align: center;}
+   .gabimg {display: block; text-align: center;}
+    .contenedor1{width: 90%;}
+    .contenedor2{width: 90%;}
+    .contenedor3{width: 90%;}
+    i {margin: 0 30px}
+}
+
+
+
+
